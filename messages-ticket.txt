@@ -1,0 +1,78 @@
+curl -X POST "http://localhost:3000/core/message/messages/active" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+curl -X DELETE "http://localhost:3000/core/message/messages/active" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+curl -X POST "http://localhost:3000/core/message/messages/active/dummy.message.warning" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X POST "http://localhost:3000/core/message/messages/active/dummy.message.error" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X POST "http://localhost:3000/core/message/messages/active/dummy.message.alarm" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X POST "http://localhost:3000/core/message/messages/active/dummy.message.info" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X POST "http://localhost:3000/core/message/messages/active/dummy.message.prompt" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+curl -X POST "http://localhost:50401/core/message/messages/active/dummy.message.warning" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+
+curl -X DELETE "http://localhost:50401/core/message/messages/active/dummy.message.warning" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X DELETE "http://localhost:50401/core/message/messages/active/dummy.message.error" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X DELETE "http://localhost:50401/core/message/messages/active/dummy.message.alarm" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X DELETE "http://localhost:50401/core/message/messages/active/dummy.message.info" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+curl -X DELETE "http://localhost:50401/core/message/messages/active/dummy.message.prompt" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+
+curl -X DELETE "http://localhost:50401/core/message/messages/active/module.coilfarm.message.general.placeholder1350" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+
+
+
+curl -X DELETE "http://localhost:3000/core/message/messages/active/dummy.message.warning" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+curl -X POST "http://localhost:50401/core/message/messages/active/" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+
+curl -X POST "http://localhost:50401/core/message/messages/active" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+curl -X DELETE "http://localhost:50401/core/message/messages/active" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+
+
+curl -X POST "http://localhost:50400/core/message/messages/active/module.coilfarm.message.infeed.edgeGuide.placeholder2300" -H "Content-Type: application/json" -H "Authorization: Bearer nuit"
+
+
+
+[
+	"module.coilfarm.message.decoiler.drive.placeholder2100",
+	"module.coilfarm.message.decoiler.drive.placeholder2106",
+	"module.coilfarm.message.decoiler.drive.placeholder2108",
+	"module.coilfarm.message.decoiler.clamping.placeholder2200",
+	"module.coilfarm.message.general.placeholder1350",
+	"module.coilfarm.message.infeed.edgeGuide.placeholder2300",
+	"module.coilfarm.message.infeed.edgeGuide.placeholder2305",
+	"module.coilfarm.message.infeed.edgeGuide.placeholder2308",
+	"module.coilfarm.message.infeed.feedRoller.placeholder2400",
+	"module.coilfarm.message.infeed.feedRoller.placeholder2404",
+	"module.coilfarm.message.infeed.edgeDetection.placeholder2500",
+	"module.coilfarm.message.infeed.edgeDetection.placeholder2503",
+	"module.coilfarm.message.infeed.masterEncoder.placeholder2620",
+	"module.coilfarm.message.portal.xAxis.placeholder2023",
+	"module.coilfarm.message.portal.xAxis.placeholder2024",
+	"module.coilfarm.message.portal.yAxis.placeholder2028",
+	"module.coilfarm.message.portal.yAxis.placeholder2029",
+	"module.coilfarm.message.portal.zAxis.placeholder2033",
+	"module.coilfarm.message.portal.zAxis.placeholder2034",
+	"module.coilfarm.message.portal.hook.placeholder2061",
+	"module.coilfarm.message.portal.hook.placeholder2062",
+	"module.coilfarm.message.portal.hook.placeholder2067",
+	"module.coilfarm.message.portal.hook.placeholder2068",
+	"module.coilfarm.message.setup.clamping.placeholder2203",
+	"module.coilfarm.message.setup.clamping.placeholder2221",
+	"module.coilfarm.message.setup.station.placeholder2800",
+    "module.coilfarm.message.decoiler.table.placeholder2900"
+]
